@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+    <section>
+        <div class="formdiv">
+            <form action="#" id="form" method="POST">
+                <h1 class="formh1">Create new service</h1>
+                
+                <div class="block">
+                    <div><label for="title" class="user"> Title* </label></div>
+                    <input id="title" type="text" placeholder="Post title" class="inputclass input" name="title">
+                    <span class="errortext" id="error_title"></span>
+                </div>
+                <div class="block">
+                    <div><label for="Description" class="user"> Description* </label></div>
+                    <textarea name="Description" id="body" class="inputclass input" name="description"></textarea>
+                    <span class="errortext" id="error_description"></span>
+                </div>
+                <div class="block">
+                    <div><label for="" class="user"> Image* </label></div>
+                    <button type="submit" class="button input" id="button" >Choose File</button>
+                    <label for="checkagree"></label>
+                    <span class="errortext" id=""></span>
+                </div>
+                <div class="block">                    
+                    <input type="text" placeholder="Username" id="name" class="inputclass input" name="username">
+                    <span class="errortext" id="error_username"></span>
+                </div>
+                <div class="block">                    
+                    <input type="email" placeholder="Email" id="mail" class="inputclass input" name="email" onkeydown="validation()">
+                    <span class="errortext" id="error_email"></span>
+
+                </div>
+                <div class="block">                    
+                    <div>
+                        <input type="password" placeholder="Password" id="password" class="inputclass input" name="passw">
+                        <i id='iconeye' class="fa-solid fa-eye"></i>
+                    </div>
+                    <span class="errortext" id="error_passw"></span>
+
+                </div>
+                <div class="block">
+                    <div>
+                        <input type="password" placeholder="Repeat Password" id="password2" class="inputclass input" name="passw2">
+                        <i id="eyeicon" class="fa-solid fa-eye"></i>
+                    </div>
+                    <span class="errortext" id="error_passw2"></span>
+                </div>
+                <div class="input">
+                    <input type="radio" name="gender" value="female" id="female">
+                    <label for="female">Male</label>
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="male">Female</label>
+                    <span class="errortext" id="error_gender"></span>
+                </div>
+                <div class="input">
+                    <input type="checkbox" id="checkbox" name="check">
+                    <label for="checkagree">I agree with terms and conditions</label>
+                    <span class="errortext" id="error_check"></span>
+                </div>
+                <div>
+                    <button type="submit" class="button input" id="button">Submit</button>
+                </div>
+            </form>
+        </div>
+    
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

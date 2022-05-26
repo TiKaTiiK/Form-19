@@ -1,0 +1,61 @@
+.errortext {
+    color: red;
+    font-style: italic;
+    display: block;
+    font-size: medium;
+}
+.formdiv{
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background: url(https://prmceam.ac.in/wp-content/uploads/2017/05/background-learner1.jpg);
+    background-position: center;
+    margin-top: 5px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size:large;
+}
+.inputclass{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #606161;
+    outline: none;
+    border-radius: 4px;
+}
+.user{
+    margin-top: 10px;
+}
+.button{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #346d6a;
+    background-color: #fff;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color:#346d6a;
+}
+.input{
+    margin: 5px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+}
+.formh1{
+    font-size: larger;
+    font-style:inherit ;
+    margin-bottom: 10px;
+}
+#body {
+    height: 50px;
+    width: 80%;
+}
+
